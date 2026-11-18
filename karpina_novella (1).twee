@@ -1,0 +1,679 @@
+:: StoryTitle
+0.Карпиной 1
+
+
+:: StoryData
+{
+  "ifid": "05d0ce29-1a26-463d-995c-2a8de134e0f0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Параграф без названия",
+  "tag-colors": {
+    "my-bg": "green",
+    "my-bg2": "green",
+    "me-bg3": "purple",
+    "my-bg3": "green",
+    "my-bg4": "green",
+    "my-bg5": "green",
+    "my_bg6": "green",
+    "model-1": "purple",
+    "model_1": "purple",
+    "my-bg6": "green",
+    "my": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: 1.1 [my-bg my] {"position":"825,225","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+        	Дедушка наказывал: «Коль заплутала в сумерках — не плачь. Слёзы для леса — как вода для жажды. Он их пьёт и только злее становится».
+    </p>
+    <p>[[Далее|1.2]]</p>
+</div>
+
+
+:: 1.2 [my-bg my] {"position":"975,250","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+        Ты проверяешь карманы переднего платья.
+В кармане ты находишь кусочек черного хлеба, клубок красной нити (бабушка дала от сглаза) и ржавый железный гвоздь.
+    </p>
+    <p>[[Далее|1.3]]</p>
+</div>
+
+
+:: 1.3 [my-bg my] {"position":"1100,350","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+       Впереди, там, где сходятся корни старых елей, послышался треск. Будто кто-то тяжёлый и неуклюжий ломает валежник. К твоему сожалению, это единственная видемая тропинка.
+    </p>
+    <p>[[Далее|1.4]]</p>
+</div>
+
+
+:: 1.4 [my-bg2 my] {"position":"1225,475","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+       Идя по тропинке, вы слышите тяжёлый, скрипучий вздох. Обернувшись ты видишь человека за своей спиной. Ты не можешь разглядеть его внешность или лицо, лишь смутные очертания силуэта в плаще и горящие изумрудом глаза. Леший.
+    </p>
+    <p>[[Далее|1.5]]</p>
+</div>
+
+
+:: 1.5 [my-bg2 my] {"position":"1100,525","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_2.png" class="char-left-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Леший</div>
+    <p class="dialogue-text">   
+    Э-ге-гей... Девка-то, девка... Чего в мои хоромы забрела? Короток ли день, длинна ли ночь?
+    </p>
+    <p>[[Далее|1.6]]</p>
+</div>
+
+
+:: 1.6 [my-bg2 my] {"position":"975,600","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">   
+  Я... я за ягодами пришла. Дедушка ждёт. Отпусти домой, Дядюшка.
+    </p>
+    <p>[[Далее|1.7]]</p>
+</div>
+
+
+:: 1.7 [my-bg2 my] {"position":"825,650","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_2.png" class="char-left-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Леший</div>
+    <p class="dialogue-text">   
+ Домой... Дом у тебя за оврагом. Пойдём, я тропочку покажу. Туда, где малина сама в рот просится. Только ручку мне дай.
+    </p>
+    <p>[[Взять его за руку и пойти на голос|Dead.1.1]]</p>
+    <p>[[Предложить хлеб для откупа|2.1]]</p>
+</div>
+
+
+:: 2.1 [my-bg2 my] {"position":"675,725","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+Не могу я за просто так помощь просить. Но если ты добрый, можешь возять хлеб. Покушаешь, да путь укажешь.
+    </p>
+    <p>[[Далее|2.2]]</p>
+</div>
+
+
+:: 2.2 [my-bg2 my] {"position":"525,800","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_2.png" class="char-left-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Леший</div>
+    <p class="dialogue-text">   
+  Умная девка. Хлеб-соль уважаешь. Ладно. Иди на закат, где мох гуще. Только нитку красную тяни, да не оборачивайся, что бы ни услышала. Лес врать горазд.
+    </p>
+    <p>[[Далее|2.3]]</p>
+</div>
+
+
+:: 2.3 [my-bg3 my] {"position":"650,875","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+ Туман стелется по земле. Впереди чернеет болотная топь. Над водой горят бледные огоньки. Лесной скрежет сменяется на тихий, манящий плеск и женское пение.
+    </p>
+    <p>[[Далее|2.4]]</p>
+</div>
+
+
+:: 2.4 [my-bg3 my] {"position":"775,925","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+   Ты тянешь за собой красную нить, привязанную к кусту можжевельника. Впереди — трясина. Но сквозь туман видишь знакомый силуэт. На камне у воды сидит женщина в белом. Она полощет бельё.
+    </p>
+    <p>[[Далее|2.5]]</p>
+</div>
+
+
+:: 2.5 [my-bg3 my] {"position":"900,975","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Неизвестный голоc</div>
+    <p class="dialogue-text">
+ Настенька? Доченька? Я тебя везде ищу, охрипла уже. Иди ко мне, вода теплая, я тебя отмою от лесной грязи...
+    </p>
+    <p>[[Далее|2.6]]</p>
+</div>
+
+
+:: 2.6 [my-bg3 my] {"position":"1050,1025","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+ Мама? Но мама осталась в деревне, дома. Как она здесь появилась?
+    </p>
+    <p>[[Не доверять|3.1]]</p>
+     <p>[[Доверится|Dead.2.1]]</p>
+</div>
+
+
+:: 3.1 [my-bg3 my] {"position":"1200,1100","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+ Это не может быть она. Это должно быть *Навь*. Болотная мать, утопленница. Если я не буду смотреть на неё, я должна буду быть впорядке!
+    </p>
+    <p>[[Далее|3.2]]</p>
+</div>
+
+
+:: 3.2 {"position":"1075,1175","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты зажмуриваешься так, что перед глазами летят искры и начинаешь идти на ощупь. Голос матери сменяется хриплым, булькающим смехом.
+    </p>
+    <p>[[Далее|3.3]]</p>
+</div>
+
+
+:: 3.3 {"position":"925,1200","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Водяница</div>
+    <p class="dialogue-text">
+   Упрямая! Кость в горле тебе, девка!
+    </p>
+    <p>[[Далее|3.4]]</p>
+</div>
+
+
+:: 3.4 {"position":"775,1250","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты слышишь Резкий всплеск, брызги попадают на платье, но холодная вода не касается кожи. Ты чувствуешь, как переступаешь через невидимый порог. Пение обрывается.
+    </p>
+    <p>[[Далее|3.5]]</p>
+</div>
+
+
+:: 3.5 [my-bg4 my] {"position":"625,1300","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Лес редеет. Сквозь деревья виден край родной деревни, дымок из труб. Но между лесом и полем стоит огромный, почерневший от времени камень-валун. На нём вырезаны странные руны. У камня сидит чёрный как уголь пёс. Огромный, величавый и могучий.
+    </p>
+    <p>[[Далее|3.6]]</p>
+</div>
+
+
+:: 3.6 [my-bg4 my] {"position":"475,1375","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Это Пёс Нави. Страж границы. Он не пустит живую душу обратно в мир людей, если она не оставит что-то взамен. Он рычит, и от этого рыка дрожат твои колени.
+    </p>
+    <p>[[Далее|3.7]]</p>
+</div>
+
+
+:: 3.7 [my-bg4 my] {"position":"625,1450","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+Я помню, дедушка рассказывал что-то об этом псе. Называл его "тёмнным"...
+    </p>
+    <p>[[Поступить по своему|Dead.3.1]]</p>
+    <p>[[Вспомнить советы Дедушки|4.1]]</p>
+</div>
+
+
+:: 4.1 [my-bg4 my] {"position":"800,1500","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+Дедушка говорил: «Железо — кровь земли. Оно тёмным смерть».
+    </p>
+    <p>[[Далее|4.2]]</p>
+</div>
+
+
+:: 4.2 [my-bg4 my] {"position":"975,1550","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Дрожащей рукой ты достаёшь ржавый гвоздь. Пёс скалится, готовясь к прыжку. Но ты опережаешь его, с размаху ударив гвоздём прямо в руну на камне.
+    </p>
+    <p>[[Далее|4.3]]</p>
+</div>
+
+
+:: 4.3 [my-bg4 my] {"position":"1100,1625","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты слышишь удар металла о камень, похожий на удар колокола. Визг, от которого закладывает уши. Чёрный дым вырывается из трещины в валуне, пёс рассыпается прахом и осенними листьями.
+    </p>
+    <p>[[Далее|4.4]]</p>
+</div>
+
+
+:: 4.4 [my-bg5 my] {"position":"1250,1725","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <p class="dialogue-text">
+ЭПИЛОГ: Рассвет
+    </p>
+    <p>[[Далее|5]]</p>
+</div>
+
+
+:: 5 [my-bg5 my] {"position":"1125,1825","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты доходишь до край деревни. Первые лучи солнца. Роса на траве. Издалека лает деревенская собака, слышен скрип колодезного журавля.
+    </p>
+    <p>[[Далее|5.1]]</p>
+</div>
+
+
+:: 5.1 [my-bg5 my] {"position":"975,1850","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты делаешь последний шаг. Сапог ступает на скошенное поле. Лес за спиной медленно затихает. Он больше не шепчет. Он спит.
+    </p>
+    <p>[[Далее|5.2]]</p>
+</div>
+
+
+:: 5.2 [my-bg5 my] {"position":"800,1925","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_1.png" class="char-right-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+Дома... Я дома.
+    </p>
+    <p>[[Далее|5.3]]</p>
+</div>
+
+
+:: 5.3 [my-bg6 my] {"position":"625,1925","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты оборачиваешься. Обычный лес. Никаких рун, никаких теней.
+Но когда ты сунула руку в карман, чтобы достать платок, твои пальцы нащупали не гвоздь.
+    </p>
+    <p>[[Далее|5.4]]</p>
+</div>
+
+
+:: 5.4 [my-bg6 my] {"position":"450,1925","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Там лежал гладкий, холодный речной жемчуг и сухая еловая веточка, перевязанная красной нитью.
+    </p>
+    <p>[[Далее|5.5]]</p>
+</div>
+
+
+:: 5.5 [my-bg6 my] {"position":"500,2075","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_4.png" class="char-center-front">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Настенька</div>
+    <p class="dialogue-text">
+Лес отпустил.
+    </p>
+</div>
+
+
+:: Dead.1 {"position":"375,500","size":"100,100"}
+ПОЛУЧЕНА КОНЦОВКА: «Вечная служанка в терему из мха»
+
+
+:: Dead.1.1 [my-bg2 my] {"position":"700,500","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+ Ты протягиваешь руку. Его пальцы оказываются холодными, как зимняя кора, и острыми, как сучья. Они сжимают твое запястье..
+    </p>
+    <p>[[Далее|Dead.1.2]]</p>
+</div>
+
+
+:: Dead.1.2 [my-bg2 my] {"position":"525,500","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_2.png" class="char-left-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Леший</div>
+    <p class="dialogue-text">
+   Ага... Попалась. Теперь ты мою избушку мхом конопатить будешь. До весны.
+    </p>
+    <p>[[Далее|Dead.1]]</p>
+</div>
+
+
+:: Dead.2 {"position":"1475,900","size":"100,100"}
+ПОЛУЧЕНА КОНЦОВКА: «Жемчужное дно»
+
+
+:: Dead.2.1 [my-bg3 my] {"position":"1200,900","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты бежишь к ней. Белый платок падает, и ты видишь не лицо матери, а оскаленный череп, обросший тиной. Холодные руки хватают тебя за лодыжки.
+    </p>
+    <p>[[Далее|Dead.2.2]]</p>
+</div>
+
+
+:: Dead.2.2 [my-bg3 my] {"position":"1325,900","size":"100,100"}
+<!-- ПЕРСОНАЖИ -->
+<img src="https://raw.githubusercontent.com/AnnaKarpina/novell/main/character_3.png" class="char-left-back">
+
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Водяница</div>
+    <p class="dialogue-text">
+    Теперь ты мне дитя будешь…
+    </p>
+    <p>[[Далее|Dead.2]]</p>
+</div>
+
+
+:: Dead.3 {"position":"250,1625","size":"100,100"}
+КОНЦОВКА: «Серый пёс»
+
+
+:: Dead.3.1 [my-bg4 my] {"position":"425,1550","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+Ты бросаешь псу клубок ниток, чтобы он играл. Но пёс даже не смотрит на нитки. Он делает шаг, и мир вокруг гаснет. Ты понимаешь, что поле перед тобой было лишь иллюзией, сотканной из твоих надежд.
+    </p>
+    <p>[[Далее|Dead.3]]</p>
+</div>
+
+
+:: Параграф без названия [my-bg my] {"position":"650,225","size":"100,100"}
+<!-- ОКНО ДИАЛОГА -->
+<div class="dialogue-box">
+    <div class="speaker-name speaker-narrator">Рассказчик</div>
+    <p class="dialogue-text">
+       	 Ты собирала бруснику. Всего на минуту отошла от тропы, чтобы сорвать куст, усыпанный ягодами, похожими на капли крови. А когда выпрямилась — тропы не стало. Солнце село. Лес изменился. Деревья словно придвинулись ближе, перекрывая небо.
+    </p>
+    <p>[[Далее|1.1]]</p>
+</div>
+
+
+:: StoryStylesheet [stylesheet]
+/* --- БАЗОВЫЕ НАСТРОЙКИ --- */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Убираем полосы прокрутки браузера */
+}
+
+/* Скрываем стандартное боковое меню Harlowe */
+tw-sidebar {
+    display: none !important;
+}
+
+/* 1. Персонаж по центру, ПЕРЕД диалоговым окном */
+.char-center-front {
+    position: fixed;
+    bottom: 30;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 85vh;
+    z-index: 20;
+    pointer-events: none;
+}
+
+/* 2. Персонаж слева, ЗА диалоговым окном */
+.char-left-back {
+    position: fixed;
+    bottom: 0vh;
+    left: 5%;
+    height: 85vh;
+    z-index: 5; /* Ниже окна диалога */
+    pointer-events: none;
+}
+
+/* 3. Персонаж справа, ЗА диалоговым окном */
+.char-right-back {
+    position: fixed;
+    bottom: 0vh;
+    right: 5%;
+    height: 85vh;
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* --- ФОН ДЛЯ ПАССАЖА С ТЕГОМ my-bg --- */
+tw-story[tags~="my-bg"] {
+    background-image: url("https://raw.githubusercontent.com/AnnaKarpina/novell/main/fon_1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон не двигается при прокрутке */
+    min-height: 100vh;
+}
+
+/* --- ФОН ДЛЯ ПАССАЖА С ТЕГОМ my-bg2 --- */
+tw-story[tags~="my-bg2"] {
+    background-image: url("https://raw.githubusercontent.com/AnnaKarpina/novell/main/fon_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон не двигается при прокрутке */
+    min-height: 100vh;
+}
+
+/* --- ФОН ДЛЯ ПАССАЖА С ТЕГОМ my-bg3 --- */
+tw-story[tags~="my-bg3"] {
+    background-image: url("https://raw.githubusercontent.com/AnnaKarpina/novell/main/fon_3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон не двигается при прокрутке */
+    min-height: 100vh;
+}
+
+/* --- ФОН ДЛЯ ПАССАЖА С ТЕГОМ my-bg4 --- */
+tw-story[tags~="my-bg4"] {
+    background-image: url("https://raw.githubusercontent.com/AnnaKarpina/novell/main/fon_4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон не двигается при прокрутке */
+    min-height: 100vh;
+}
+
+/* --- ФОН ДЛЯ ПАССАЖА С ТЕГОМ my-bg5 --- */
+tw-story[tags~="my-bg5"] {
+    background-image: url("https://raw.githubusercontent.com/AnnaKarpina/novell/main/fon_5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон не двигается при прокрутке */
+    min-height: 100vh;
+}
+
+/* --- ФОН ДЛЯ ПАССАЖА С ТЕГОМ my-bg6 --- */
+tw-story[tags~="my-bg6"] {
+    background-image: url("https://raw.githubusercontent.com/AnnaKarpina/novell/main/fon_6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон не двигается при прокрутке */
+    min-height: 100vh;
+}
+
+/* Убираем стандартные отступы Harlowe, чтобы они не мешали */
+tw-story[tags~="my"] tw-passage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: none; /* Отменяем стандартное ограничение ширины Harlowe */
+}
+
+/* --- ОКНО ТЕКСТА (ДИАЛОГОВОЕ ОКНО) --- */
+.dialogue-box {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    max-width: 1000px; /* Чтобы на огромных мониторах окно не было слишком широким */
+    max-height: 30vh; /* Чуть увеличил для удобства чтения */
+    overflow-y: auto;
+    
+    background: rgba(0, 0, 0, 0.8); /* Чуть темнее для лучшей читаемости */
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 20px 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+    z-index: 10; /* Окно всегда поверх персонажей */
+    
+    /* Добавляем белый цвет текста по умолчанию для контраста */
+    color: #ffffff;
+    font-family: sans-serif; /* шрифт */
+    line-height: 1.5;
+}
+
+/* Убираем лишние отступы у параграфов внутри окна */
+.dialogue-box p {
+    margin: 0 0 12px 0;
+}
+
+.dialogue-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* Стили для имени говорящего */
+.speaker-name {
+    position: absolute;
+    top: 10px;      /* Отступ сверху внутри окна */
+    left: 15px;     /* Отступ слева внутри окна */
+    
+    background: rgba(255, 255, 255); /* Полупрозрачный золотой фон */
+    color: #000000;
+    
+    padding: 4px 12px;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 204, 0, 0.4);
+    z-index: 11;
+}
+
+/* Стили для ссылок (переходов) внутри окна текста */
+.dialogue-box tw-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.dialogue-box tw-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 204, 0, 0.6); /* Легкое свечение при наведении */
+}
+
+/* --- ПЕРСОНАЖИ (СПРАЙТЫ) --- */
+.character {
+    position: fixed;
+    bottom: 0; /* Прижимаем к низу экрана */
+    height: 75vh; /* Чуть увеличил высоту для лучшей видимости (75% экрана) */
+    max-height: 800px; /* Ограничение для очень высоких экранов */
+    z-index: 5; /* Персонажи позади текста (10), но перед фоном (0) */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none; /* Чтобы клики проходили сквозь персонажа, если он перекрывает кнопку */
+}
+
+.character-left {
+    left: 5%; /* Чуть ближе к краю для баланса */
+}
+
+.character-right {
+    right: 5%;
+}
+
+.character-center {
+    left: 50%;
+    transform: translateX(-50%);
+}
